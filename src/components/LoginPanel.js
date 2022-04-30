@@ -22,7 +22,7 @@ return (
                 {errors.password && touched.password && ( <p>{errors.password}</p>)}           
         </div>
         <div className='radioInput'>
-            <input type="radio" name="radio"/> 
+            <input type="checkbox"/> 
             <lable>Accept All Rules</lable>
         </div>
         <div className='submitInput'>
