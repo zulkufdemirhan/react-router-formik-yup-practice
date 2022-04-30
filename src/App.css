@@ -1,0 +1,21 @@
+.App {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.navBar {
+    width: 20vh;
+    display: flex;
+    justify-content: space-around;
+}
+li{
+    list-style: none;
+}
+.link{
+    color: red;
+    font-size: 16px;
+    text-decoration: none;
+}
